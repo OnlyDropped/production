@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Teko:wght@300;500&display=swap");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,6 +14,7 @@ html {
 ul[class],
 ol[class] {
   padding: 0;
+  list-style-type: none;
 }
 
 body,
@@ -35,7 +37,7 @@ dd {
 }
 
 ul[class] {
-  list-style: none;
+  list-style-type: none;
 }
 
 img {
@@ -52,5 +54,213 @@ select {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #181414;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  border-radius: 10px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.fancybox-fx-slide-in-out.fancybox-slide--previous {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.fancybox-fx-slide-in-out.fancybox-slide--next {
+  -webkit-transform: scale(4.5);
+          transform: scale(4.5);
+}
+
+.fancybox-fx-slide-in-out.fancybox-slide--current {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.header {
+  padding: 10px 0 17px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0 50px;
+}
+
+.header-nav__burger {
+  display: none;
+}
+
+.header-nav__call-back {
+  background: #c60101;
+  padding: 15px 30px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.footer {
+  padding: 28px 0;
+  background: #404040;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.footer__description, .footer__reserved {
+  max-width: 240px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+.footer__description {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px 0;
+}
+
+.footer__link {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+}
+
+.footer__row {
+  max-width: 326px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 13px;
+}
+
+.footer__row + .footer__row {
+  margin-top: 20px;
+}
+
+.footer__phone {
+  font-size: 18px;
+  color: #fad537;
+}
+
+.footer__email,
+.footer__row p {
+  color: #fff;
+}
+
+.footer__row p {
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.footer__call-back {
+  background: #ffffff;
+  padding: 15px 41px;
+  font-size: 12px;
+  color: #c60101;
+  margin-bottom: 46px;
 }
 /*# sourceMappingURL=style.css.map */
