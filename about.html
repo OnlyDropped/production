@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Home page</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <a class="header-nav__logo" href="">
+          <img src="img/icons/logo.svg" alt="logo">
+        </a>
+        <ul class="header-nav__menu">
+          <li class="header-nav__item"><a class="header-nav__link" href="home.html">Main</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="product.html">Product</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="about.html">About us</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="">Contact</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="">Certificates</a></li>
+        </ul>
+        <div class="popup" id="dialog-content" style="display:none;">
+          <h2 class="popup__title">Call me back</h2>
+          <p class="popup__description">Leave your contact information here and we will get back to you as soon as possible. </p>
+          <form class="popup__form" action="">
+            <input class="popup__input" type="text" placeholder="Enter your name">
+            <input class="popup__input" type="tel" placeholder="Enter your phone">
+            <input class="popup__input" type="email" placeholder="Enter your e-mail">
+            <button class="popup__call btn">Call me</button>
+          </form>
+
+        </div>
+        <button data-fancybox="dialog" data-src="#dialog-content" class="header-nav__call-back btn">Call me back</button>
+        <button class="header-nav__burger">
+          <span class="header-nav__span"></span>
+          <span class="header-nav__span"></span>
+          <span class="header-nav__span"></span>
+          <span class="header-nav__span"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="breadcrumbs">
+      <div class="container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="">Main</a></li>
+          <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="">About us</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h1 class="about__title title">About us</h1>
+        <div class="about__inner">
+          <img class="about__img" src="img/about/1.png" alt="">
+          <div class="about__info">
+            <p class="about__heading">Our production</p>
+            <p class="about__text">From the first years of work in the solid fuel business it became clear that we can't do without our own production facilities. But, as you know, it is not a problem to buy equipment and find competent specialists, how to find a quality, constantly updated raw material base, which will provide a continuous process of producing briquettes or pellets all year round.</p>
+            <p class="about__text">So in 2013 began our endless trips to major woodworking companies in Russia. And by the summer of 2014 we managed to find a large enterprise in the Kirov region, with which we partnered to install our first press from the German company "RuF". After a short installation and commissioning we were able to reach operating capacity and produce 7-9 tons of briquettes per day in two shifts. Having successfully implemented this project, we decided not to stop the production of wood briquettes and in 2016 the first pelletizer OGM-1.5 was installed in Belokholunitsky district of Kirov region, which allows to produce more than 1 ton of premium wood pellets per hour.</p>
+            <p class="about__text">At the moment we have one production of wood briquettes and two production of pellets. The total capacity is 200-220 tons of briquettes per month and 800-900 tons of pellets per month.</p>
+          </div>
+          <div class="about__info">
+            <p class="about__heading">Our production</p>
+            <p class="about__text">It's no secret that for the successful development and exploration of new markets - you can not stand still and trade in one or two types of fuel.</p>
+            <p class="about__text">
+              We have 4 types of RuF wood briquettes only:
+              <ul class="about__list">
+                <li class="about__item">Mix briquette (made of coniferous and birch sawdust)</li>
+                <li class="about__item">Birch "dust" briquette (made of birch wood flour)</li>
+                <li class="about__item">Briquettes of oak dust (from oak wood flour),</li>
+                <li class="about__item">Mixture of birch "dust" briquettes with the addition of wood chips (70-80% birch flour, the rest is birch chips).</li>
+              </ul>              
+            </p>
+            <p class="about__text">
+              Besides RuF briquettes we also sell such briquettes as Pini-Kay, Nielsen and Nestro, packed in 10 kg shrink-wrapped film. But what can you do nowadays without wood pellets? And we also have 4 kinds of them:
+              <ul class="about__list">
+                <li class="about__item">White "premium" 6mm</li>
+                <li class="about__item">Light "standard" 6mm</li>
+                <li class="about__item">Dark "cappuccino" 6-8 mm</li>
+                <li class="about__item">Agropellets from sunflower husks</li>
+              </ul>
+
+            </p>            
+            
+          </div>          
+          <img class="about__img" src="img/about/2.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="provide">
+      <div class="container">
+        <div class="provide__inner">
+          <div class="popup">
+          <h2 class="popup__title">We provide bulk industrial-grade wood pellets</h2>
+          <p class="popup__description">for clean biomass energy to Europe’s leading energy companies sing sea vessels of 3.000 to 30.000 tons.</p>
+          <form class="popup__form" action="">
+            <input class="popup__input" type="text" placeholder="Enter your name">
+            <input class="popup__input" type="tel" placeholder="Enter your phone">
+            <button class="popup__call btn">Call me</button>
+          </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <a class="footer__logo" href="">
+            <img src="img/icons/footer-logo.svg" alt="logo">
+          </a>
+          <p class="footer__description">
+            © 2022 PHOENİX BIOENERGY ORMAN ÜRÜNLERİ SANAYİ VE DIŞ TİCARET LİMİTED ŞİRKETİ
+          </p>
+          <p class="footer__reserved">All rights reserved  </p>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li>
+              <a class="footer__link" href="">Main</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">Product</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">About us</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">Contact</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">Certificates</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <div class="footer__row">
+            <img src="img/icons/phone.svg" alt="phone">
+            <a class="footer__phone" href="tel:+999999999999">+999999999999</a>
+          </div>
+          <div class="footer__row">
+            <img src="img/icons/email.svg" alt="email">
+            <a class="footer__email" href="mail@example.com">mail@example.com</a>
+          </div>
+          <div class="footer__row">
+            <img src="img/icons/location.svg" alt="location">
+            <p>Adress	Küçükköy Mah. Somalilar Sok. Aksoy B-blok no: 3/1 Ayvalik/Balikesi̇r/Turkey</p>
+          </div>
+        </div>
+        <div class="footer__item">
+          <button class="footer__call-back btn">Call me back</button>
+          <a class="footer__link " href="">Privacy policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
