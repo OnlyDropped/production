@@ -2,6 +2,23 @@
 @import "vars";
 @import "reset";
 @import "global";
+.main-page{
+  background: linear-gradient(45deg, #30cfd0, #330867);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 0;
+  overflow-y: scroll;
+  text-align: center;
+  a{
+    font-size: 28px;
+    color: #fff;
+    color: #c5ccf0;
+  }
+}
 .header {
   padding: 10px 0 17px;
   background: #ffffff;
