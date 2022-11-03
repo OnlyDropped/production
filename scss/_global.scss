@@ -32,15 +32,15 @@ html {
   height: 100%;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
 }
 
-.main{
+.main {
   flex-grow: 1;
+  background: #f9f9f9;
 }
-
 
 // /* Custom animation */
 .fancybox-fx-slide-in-out.fancybox-slide--previous {
@@ -49,10 +49,115 @@ body{
 
 .fancybox-fx-slide-in-out.fancybox-slide--next {
   transform: scale(4.5);
-  
 }
 
 .fancybox-fx-slide-in-out.fancybox-slide--current {
   transform: translateX(0);
 }
 
+input::placeholder,
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #929292;
+}
+
+.fancybox-can-pan .fancybox-content,
+.fancybox-can-swipe .fancybox-content {
+  cursor: auto;
+}
+
+.fancybox-close-small {
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  opacity: 1;
+  padding: 8px;
+  position: absolute;
+  right: -12px;
+  top: -44px;
+  width: 17px;
+  height: 17px;
+  background: url("../img/icons/close-btn.svg") center center no-repeat;
+  z-index: 401;
+}
+
+.fancybox-bg {
+  background: #000;
+}
+
+.fancybox-is-open .fancybox-bg {
+  opacity: 0.4;
+  opacity: 0.9;
+}
+
+.fancybox-slide--html .fancybox-close-small {
+  color: currentColor;
+  padding: 0px;
+  right: 20px;
+  top: 20px;
+}
+
+.fancybox-button svg {
+  display: none;
+}
+
+// 285/35/22
+// 315/30/22
+// аминьевское шоссе 116
+// 860s 45000 перед
+//      80000 зад
+
+// ул.фабричная
+
+.popup {
+  max-width: 805px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(#000, 0.1);
+  padding: 37px 41px 49px;
+  color: #181414;
+  background: url("../img/popup-bg.png") right bottom #fff no-repeat;
+  background-repeat: no-repeat;
+  background-position: rigth bottom;
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  &__description {
+    max-width: 305px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    margin-bottom: 20px;
+  }
+  &__form {
+    max-width: 354px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  &__input {
+    width: 100%;
+    background: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 19px 20px 17px;
+  }
+  &__call {
+    background: #c60101;
+    color: #fff;
+    padding: 18px 0;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #181414;
+}

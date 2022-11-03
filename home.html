@@ -16,14 +16,21 @@
           <img src="img/icons/logo.svg" alt="logo">
         </a>
         <ul class="header-nav__menu">
-          <li class="header-nav__item"><a class="header-nav__link" href="">Main</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="home.html">Main</a></li>
           <li class="header-nav__item"><a class="header-nav__link" href="">Product</a></li>
           <li class="header-nav__item"><a class="header-nav__link" href="">About us</a></li>
           <li class="header-nav__item"><a class="header-nav__link" href="">Contact</a></li>
           <li class="header-nav__item"><a class="header-nav__link" href="">Certificates</a></li>
         </ul>
-        <div id="dialog-content" style="display:none;">
-          <h2>Hello, world!</h2>
+        <div class="popup" id="dialog-content" style="display:none;">
+          <h2 class="popup__title">Call me back</h2>
+          <p class="popup__description">Leave your contact information here and we will get back to you as soon as possible. </p>
+          <form class="popup__form" action="">
+            <input class="popup__input" type="text" placeholder="Enter your name">
+            <input class="popup__input" type="tel" placeholder="Enter your phone">
+            <input class="popup__input" type="email" placeholder="Enter your e-mail">
+            <button class="popup__call btn">Call me</button>
+          </form>
 
         </div>
         <button data-fancybox="dialog" data-src="#dialog-content" class="header-nav__call-back btn">Call me back</button>
@@ -37,7 +44,172 @@
     </div>
   </header>
   <main class="main">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia assumenda eius! Quos quaerat explicabo provident, aliquam, aliquid in repellendus officiis voluptatibus qui rem illum accusantium nesciunt quibusdam minus possimus quisquam voluptatem repellat facere! Eligendi ad corporis repudiandae ex id, fuga illo animi reiciendis maxime ipsum officia, eos reprehenderit nostrum voluptatem voluptates ratione similique sit nobis suscipit? Eaque ut officiis quisquam dolor, distinctio harum ipsa aperiam exercitationem culpa aliquam. Culpa dolore eligendi ipsa distinctio, reiciendis soluta aut quas accusamus placeat quis maxime minima esse architecto tenetur magnam iste, provident adipisci reprehenderit deserunt repellat non doloremque dolorum sapiente. Natus, suscipit? Accusamus ipsa vero soluta suscipit expedita enim corporis aut veniam recusandae aliquid adipisci distinctio eius repellat sequi laboriosam, culpa ea! A ipsa adipisci inventore, architecto nesciunt suscipit ratione iusto ad in fuga, eos, beatae nostrum at odio necessitatibus ipsum deleniti voluptatum explicabo exercitationem ducimus reiciendis facere. Numquam ullam dolorem, ipsam nisi repellendus dolorum illo sed architecto nobis, recusandae fugiat reprehenderit voluptates tempore sunt adipisci reiciendis nulla? Eum nobis unde excepturi iure asperiores consectetur soluta, ipsa, repudiandae, rem nam quo tenetur cum dolores sunt magni totam ad nesciunt aspernatur dolor quos porro? Ad veritatis, dicta ipsam cupiditate error, reiciendis harum illum doloremque ipsum placeat quibusdam ex temporibus sapiente, eligendi saepe officiis suscipit? Consectetur, perferendis, quisquam, dolores tenetur aliquid molestiae cum ratione ad dolorum vero excepturi mollitia doloribus doloremque harum tempora sit quaerat et reprehenderit officia. Ipsam laudantium hic molestiae eaque doloremque possimus voluptates nisi ducimus aut, aliquam, molestias tempora consectetur saepe eos eius quos voluptatibus nobis? Unde amet quibusdam, ab voluptatum debitis voluptatibus impedit assumenda cum nostrum recusandae. Earum maxime nisi minima a accusantium incidunt cupiditate culpa rem hic ea, omnis voluptatibus quod corrupti sunt, corporis quos commodi recusandae cum beatae aspernatur? Perspiciatis sit laboriosam accusamus vitae esse eligendi ullam aut, est nobis animi similique veritatis ducimus vero alias quos dolores rem necessitatibus magni assumenda repellendus, fugiat amet sunt asperiores a. Obcaecati nobis, aliquam aut aperiam dolores cum eos ullam. Laboriosam possimus quod nisi quasi ullam odio in atque fuga quidem illo mollitia, corporis voluptates accusamus nemo cum minus debitis non et. Id, dolor distinctio libero, culpa et aliquam excepturi, magnam deleniti dolores alias nobis. Quod vero voluptas nisi aliquam aut minus sapiente error illo iure quidem totam laudantium vel aliquid hic ipsum ab atque iste cum temporibus possimus ipsa, cumque molestiae voluptatem nostrum. Nihil iusto tenetur ad culpa eius repudiandae magni minus! Amet rem error nisi aspernatur eveniet et nobis, velit magni sit rerum labore explicabo expedita atque! Architecto similique amet culpa aspernatur atque tempore, beatae in. Nesciunt illum facere harum voluptatem debitis inventore laudantium libero recusandae mollitia laborum, tempora obcaecati ullam et aperiam eveniet similique exercitationem itaque temporibus quaerat ducimus sunt porro optio! Earum inventore neque modi laboriosam, temporibus velit eos maxime nihil, dolorum adipisci voluptas aliquam aperiam minus reprehenderit soluta amet iste architecto doloremque excepturi in deleniti impedit aspernatur labore. Reiciendis, quos harum, atque voluptatem laboriosam molestiae corrupti, eius incidunt eos eveniet sit. Explicabo accusamus omnis vel ducimus suscipit!
+    <section class="banner">
+      <div class="container">
+        <div class="banner__wrapper" style="background: url('img/banner-bg.png') center center no-repeat;">
+          <h1 class="banner__title">A bright headline about what we offer</h1>
+          <p class="banner__text">A brief description of the essence of the offer, prompting its content to click on the    button below</p>
+          <button class="banner__btn btn">Call me back</button>
+        
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="our-products">
+      <div class="container">
+        <div class="our-products__inner">
+          <h2 class="title our-products__title">Our products</h2>
+          <div class="our-products__wrapper">
+            <div class="our-products__card">
+              <img class="our-products__img" src="img/products/1.jpg" alt="product">
+              <div class="our-products__body">
+                <p class="our-products__name">Pellets</p>
+                <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                <a class="our-products__show btn" href="">Show more</a>
+              </div>
+            </div>
+            <div class="our-products__card">
+              <img class="our-products__img" src="img/products/2.jpg" alt="product">
+              <div class="our-products__body">
+                <p class="our-products__name">Briquettes</p>
+                <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                <a class="our-products__show btn" href="">Show more</a>
+              </div>
+            </div>
+            <div class="our-products__card">
+              <img class="our-products__img" src="img/products/3.jpg" alt="product">
+              <div class="our-products__body">
+                <p class="our-products__name">Charcoal</p>
+                <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                <a class="our-products__show btn" href="">Show more</a>
+              </div>
+            </div>
+            <div class="our-products__card">
+              <img class="our-products__img" src="img/products/4.jpg" alt="product">
+              <div class="our-products__body">
+                <p class="our-products__name">Peat briquette</p>
+                <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                <a class="our-products__show btn" href="">Show more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="provide">
+      <div class="container">
+        <div class="provide__inner">
+          <div class="popup">
+          <h2 class="popup__title">We provide bulk industrial-grade wood pellets</h2>
+          <p class="popup__description">for clean biomass energy to Europe’s leading energy companies sing sea vessels of 3.000 to 30.000 tons.</p>
+          <form class="popup__form" action="">
+            <input class="popup__input" type="text" placeholder="Enter your name">
+            <input class="popup__input" type="tel" placeholder="Enter your phone">
+            <button class="popup__call btn">Call me</button>
+          </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="we-are">
+      <div class="container">
+        <div class="we-are__inner">
+          <h3 class="we-are__title title">Why we are?</h3>
+          <div class="we-are__wrapper">
+            <div class="we-are__item">
+              <div class="we-are__images">
+                <img src="img/we-are/1.svg" alt="images">
+              </div>
+              <div class="we-are__info">  
+                <p class="we-are__heading">Responsible Forestry</p> 
+                <p class="we-are__text">Biomass sourced from responsible manufacturers who share our belief in sustainable  forestry.</p>
+               </div>
+            </div>
+            <div class="we-are__item">
+              <div class="we-are__images">
+                <img src="img/we-are/2.svg" alt="images">
+              </div>
+              <div class="we-are__info">  
+                <p class="we-are__heading">Multilingual Client Support</p> 
+                <p class="we-are__text">Our client success managers are fluent in all major European languages.</p>
+               </div>
+            </div>
+            <div class="we-are__item">
+              <div class="we-are__images">
+                <img src="img/we-are/3.svg" alt="images">
+              </div>
+              <div class="we-are__info">  
+                <p class="we-are__heading">Client-centric B2B Approach</p> 
+                <p class="we-are__text">We appreciate the human element in B2B relationships. B2B=H2H.</p>
+               </div>
+            </div>
+            <div class="we-are__item">
+              <div class="we-are__images">
+                <img src="img/we-are/4.svg" alt="images">
+              </div>
+              <div class="we-are__info">  
+                <p class="we-are__heading">Certified Wood Bioenergy</p> 
+                <p class="we-are__text">Universally recognized certificates are testimonies to our shared commitments regarding quality, environment, ethics and sustainability.</p>
+               </div>
+            </div>
+            <div class="we-are__item">
+              <div class="we-are__images">
+                <img src="img/we-are/5.svg" alt="images">
+              </div>
+              <div class="we-are__info">  
+                <p class="we-are__heading">9 years on the market</p> 
+                <p class="we-are__text">Our experience ensures the high quality of our products and services</p>
+               </div>
+            </div>
+            <div class="we-are__item">
+              <div class="we-are__images">
+                <img src="img/we-are/6.svg" alt="images">
+              </div>
+              <div class="we-are__info">  
+                <p class="we-are__heading"></p> 
+                <p class="we-are__text">We work with integrity and make sure that the customer is satisfied with our service</p>
+               </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="container">
+        <div class="info__inner">
+          <div class="info__item">
+            <div class="info__top">
+              <div class="info__images">
+                <img src="img/icons/about.svg" alt="about">
+              </div>
+              <p class="info__title title">About us</p>
+            </div>
+            <p class="info__text">Since 2016, we have been successfully selling our own products in countries such as Italy, Germany, Slovakia, Lithuania, Latvia and other EU countries.</p>
+            <p class="info__text">The main type of export products are pellets. In less than 4 years, more than 20,000 tons were shipped to more than 10 EU countries.</p>
+            <p class="info__text">The demand for “Ruf” and “Pini-Kay” briquettes is not as great as for pellets, but this does not prevent us from selling a total of more than 400 tons of briquettes per month.</p>
+            <p class="info__text">During all this time, we have managed to establish ourselves as a responsible supplier of high-quality wood fuel.</p>
+            <p class="info__text">We have extensive contacts with European carriers, which allows us to help with the search for vehicles at the lowest market prices.</p>
+          </div>
+          <div class="info__item">
+            <div class="info__top">
+              <div class="info__images">
+                <img src="img/icons/delivery.svg" alt="about">
+              </div>
+              <p class="info__title title">Delivery</p>
+            </div>
+            <p class="info__text">An integral and important part of the purchase of solid fuel is its delivery to the buyer's address. The Pechkin company has its own fleet of cars, with the help of which we carry out prompt delivery of any number of tons in strictly agreed terms.</p>
+            <p class="info__text">We can also offer delivery directly from our production from 20 tons, which is the most profitable solution and significantly reduces the final cost of goods at your place.</p>
+            <p class="info__text">If you do not need delivery, then you can pick up any required amount of fuel without any problems by making just one preliminary call to the office.</p>
+            <p class="info__text">For export clients, we search for transport to any EU country by any type of transport: - By car, - By container, - By railway car, - By Ship.</p>
+            <p class="info__text">For more than 5 years of work in the export market, we have found optimal routes and transport companies that allow us to offer transport rates much lower than market rates. Declaration and customs clearance</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="container">
