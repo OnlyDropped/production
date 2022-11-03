@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Home page</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <a class="header-nav__logo" href="">
+          <img src="img/icons/logo.svg" alt="logo">
+        </a>
+        <ul class="header-nav__menu">
+          <li class="header-nav__item"><a class="header-nav__link" href="home.html">Main</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="product.html">Product</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="">About us</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="">Contact</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="">Certificates</a></li>
+        </ul>
+        <div class="popup" id="dialog-content" style="display:none;">
+          <h2 class="popup__title">Call me back</h2>
+          <p class="popup__description">Leave your contact information here and we will get back to you as soon as possible. </p>
+          <form class="popup__form" action="">
+            <input class="popup__input" type="text" placeholder="Enter your name">
+            <input class="popup__input" type="tel" placeholder="Enter your phone">
+            <input class="popup__input" type="email" placeholder="Enter your e-mail">
+            <button class="popup__call btn">Call me</button>
+          </form>
+
+        </div>
+        <button data-fancybox="dialog" data-src="#dialog-content" class="header-nav__call-back btn">Call me back</button>
+        <button class="header-nav__burger">
+          <span class="header-nav__span"></span>
+          <span class="header-nav__span"></span>
+          <span class="header-nav__span"></span>
+          <span class="header-nav__span"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="breadcrumbs">
+      <div class="container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="">Main</a></li>
+          <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="">Product</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="product">
+      <div class="container">
+        <h1 class="product__title title">Our products</h1>
+        <img class="product__bg" src="img/product-bg.jpg" alt="background">
+        <div class="product__content">
+          <div class="product__row">
+            <h4 class="product__row-title">Pellets</h4>
+            <div class="our-products__wrap">
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/1.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">White 15 kg / big bags</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div>
+             <div class="our-products__card">
+                <img class="our-products__img" src="img/products/2.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Dark 15 kg / big begs</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+             </div>
+            </div>
+            
+          </div>
+          <div class="product__row">
+            <h4 class="product__row-title">Briquettes</h4>
+            <div class="our-products__wrap">
+
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div>
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/4.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Peat briquette</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div>  
+            </div>          
+          </div>
+        
+          
+        </div>
+        <div class="product__content">
+          <div class="product__row">
+            <h4 class="product__row-title">Boards</h4>
+            <div class="our-products__wrap">
+
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div>
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div> 
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div> 
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div>
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div> 
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div> 
+              <div class="our-products__card">
+                <img class="our-products__img" src="img/products/3.jpg" alt="product">
+                <div class="our-products__body">
+                  <p class="our-products__name">Charcoal</p>
+                  <p class="our-products__text">A brief description of the product, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text, here is a stock for a new text...</p>
+                  <div class="product__price">from 300$</div>
+                  <a class="our-products__show btn" href="">Show more</a>
+                </div>
+              </div>                                         
+            </div>          
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="provide">
+      <div class="container">
+        <div class="provide__inner">
+          <div class="popup">
+          <h2 class="popup__title">We provide bulk industrial-grade wood pellets</h2>
+          <p class="popup__description">for clean biomass energy to Europe’s leading energy companies sing sea vessels of 3.000 to 30.000 tons.</p>
+          <form class="popup__form" action="">
+            <input class="popup__input" type="text" placeholder="Enter your name">
+            <input class="popup__input" type="tel" placeholder="Enter your phone">
+            <button class="popup__call btn">Call me</button>
+          </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <a class="footer__logo" href="">
+            <img src="img/icons/footer-logo.svg" alt="logo">
+          </a>
+          <p class="footer__description">
+            © 2022 PHOENİX BIOENERGY ORMAN ÜRÜNLERİ SANAYİ VE DIŞ TİCARET LİMİTED ŞİRKETİ
+          </p>
+          <p class="footer__reserved">All rights reserved  </p>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li>
+              <a class="footer__link" href="">Main</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">Product</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">About us</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">Contact</a>
+            </li>
+            <li>
+              <a class="footer__link" href="">Certificates</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <div class="footer__row">
+            <img src="img/icons/phone.svg" alt="phone">
+            <a class="footer__phone" href="tel:+999999999999">+999999999999</a>
+          </div>
+          <div class="footer__row">
+            <img src="img/icons/email.svg" alt="email">
+            <a class="footer__email" href="mail@example.com">mail@example.com</a>
+          </div>
+          <div class="footer__row">
+            <img src="img/icons/location.svg" alt="location">
+            <p>Adress	Küçükköy Mah. Somalilar Sok. Aksoy B-blok no: 3/1 Ayvalik/Balikesi̇r/Turkey</p>
+          </div>
+        </div>
+        <div class="footer__item">
+          <button class="footer__call-back btn">Call me back</button>
+          <a class="footer__link " href="">Privacy policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
