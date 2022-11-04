@@ -369,6 +369,7 @@ textarea::placeholder {
   width: 42px;
   height: 36px;
   background: linear-gradient(45deg, #c90000 40%, #620000 100.03%);
+  background: linear-gradient(45deg, #c16161 40%, #dea2a2 100.03%);
   position: relative;
   -webkit-transition: all .6s ease-in-out;
   transition: all .6s ease-in-out;
@@ -1082,6 +1083,14 @@ textarea::placeholder {
   .header-nav__menu {
     gap: 0 28px;
   }
+  .footer {
+    padding: 25px 0;
+  }
+  .footer__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1145,11 +1154,25 @@ textarea::placeholder {
   .popup__input {
     padding: 12px 10px;
   }
+  .footer {
+    padding: 20px 0;
+  }
+  .footer__item {
+    max-width: 185px;
+    width: 100%;
+  }
+  .footer__call-back {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 390px) {
   .popup {
     max-width: 360px;
+  }
+  .footer__item {
+    max-width: 175px;
+    width: 100%;
   }
 }
 
@@ -1157,9 +1180,15 @@ textarea::placeholder {
   .main-page a {
     font-size: 25px;
   }
+  .footer__item {
+    max-width: 165px;
+  }
+  .footer__phone {
+    font-size: 17px;
+  }
 }
 
-@media ((max-width: 360px)) {
+@media (max-width: 360px) {
   .popup {
     max-width: 330px;
     padding: 16px 14px;
@@ -1167,6 +1196,30 @@ textarea::placeholder {
   }
   .popup__call {
     padding: 12px 0;
+  }
+  .footer__inner {
+    gap: 15px 0;
+  }
+  .footer__logo {
+    margin-bottom: 15px;
+  }
+  .footer__item {
+    max-width: 100%;
+    text-align: center;
+  }
+  .footer__link {
+    margin: 0 auto;
+  }
+  .footer__row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__row img {
+    display: none;
+  }
+  .footer__description, .footer__reserved {
+    max-width: 100%;
   }
 }
 
