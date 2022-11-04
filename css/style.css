@@ -428,7 +428,6 @@ textarea::placeholder {
 .banner {
   padding: 30px 0;
   text-align: center;
-  margin-top: 90px;
   color: #fff;
 }
 
@@ -1236,6 +1235,65 @@ textarea::placeholder {
   }
   .popup__input {
     padding: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner__wrapper {
+    padding: 105px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner__wrapper {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .banner__wrapper {
+    padding: 60px 0;
+  }
+  .banner__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__title {
+    font-size: 40px;
+  }
+  .banner__text {
+    max-width: 345px;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 390px) {
+  .banner__wrapper {
+    padding: 45px 0;
+  }
+  .banner__title {
+    font-size: 35px;
+  }
+  .banner__btn {
+    padding: 15px 34px;
+  }
+}
+
+@media (max-width: 360px) {
+  .banner__text {
+    max-width: 300px;
+    margin: 0 auto 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner__title {
+    font-size: 28px;
+  }
+  .banner__btn {
+    padding: 12px 28px;
   }
 }
 /*# sourceMappingURL=style.css.map */
