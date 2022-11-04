@@ -34,3 +34,13 @@ $('[data-fancybox="gallery"]').fancybox({
 //         zoom: 5
 //     });
 // }
+
+
+
+
+const btn = document.querySelector('.header-nav__burger');
+const menu = document.querySelector('.header-nav__menu');
+btn.addEventListener('click', function () {
+  btn.classList.toggle('header-nav__burger--active');
+  menu.classList.toggle('header-nav__menu--show');
+})
