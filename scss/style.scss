@@ -452,6 +452,33 @@
     border-radius: 10px;
   }
 }
+.certificates {
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__text {
+    max-width: 459px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 145%;
+    color: #181414;
+    margin-bottom: 52px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img {
+    cursor: pointer;
+    width: 380px;
+    height: 538px;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px rgba(#000, 0.25);
+    border-radius: 20px;
+
+  }
+}
 .footer {
   padding: 28px 0;
   background: #404040;
