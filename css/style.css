@@ -1248,9 +1248,29 @@ textarea::placeholder {
   }
 }
 
+@media (max-width: 1220px) {
+  .info__item {
+    max-width: 570px;
+    padding: 50px 45px 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .info__inner {
+    gap: 0 20px;
+  }
+  .info__item {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 1024px) {
   .banner__wrapper {
     padding: 105px 0;
+  }
+  .info__item {
+    max-width: 100%;
+    padding: 50px 35px 80px;
   }
 }
 
@@ -1260,6 +1280,28 @@ textarea::placeholder {
   }
   .our-products__wrapper {
     gap: 0 15px;
+  }
+  .provide .popup {
+    padding: 50px 60px;
+  }
+  .provide .popup__title {
+    line-height: 120%;
+  }
+  .provide .popup__description {
+    margin-bottom: 45px;
+  }
+  .provide .popup__input {
+    max-width: 205px;
+    padding: 15px 10px;
+  }
+  .we-are__inner {
+    padding: 40px 35px 50px;
+  }
+  .we-are__item {
+    max-width: 400px;
+  }
+  .we-are__info {
+    max-width: 300px;
   }
 }
 
@@ -1293,6 +1335,28 @@ textarea::placeholder {
     width: 276px;
     white-space: break-spaces;
   }
+  .we-are__item {
+    max-width: 340px;
+  }
+  .we-are__info {
+    max-width: 250px;
+  }
+  .info__text + .info__text {
+    margin-top: 15px;
+  }
+  .info__images {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .provide .popup {
+    padding: 40px 25px;
+  }
+  .we-are__inner {
+    padding: 35px 15px 35px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -1302,6 +1366,70 @@ textarea::placeholder {
   .banner__text {
     max-width: 345px;
     margin: 0 auto 30px;
+  }
+  .provide .popup {
+    background-size: contain;
+    padding: 22px;
+  }
+  .provide .popup__title {
+    font-size: 24px;
+  }
+  .provide .popup__description {
+    margin-bottom: 20px;
+  }
+  .provide .popup__form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
+  }
+  .provide .popup__input {
+    max-width: 160px;
+    padding: 10px;
+  }
+  .provide .popup__call {
+    padding: 16px 50px;
+    font-size: 15px;
+  }
+  .we-are__inner {
+    padding: 25px 0px 25px;
+  }
+  .we-are__title {
+    font-size: 34px;
+  }
+  .we-are__item {
+    max-width: 100%;
+  }
+  .we-are__info {
+    max-width: 300px;
+  }
+  .we-are__wrapper {
+    gap: 20px 0;
+  }
+  .we-are__images {
+    height: 60px;
+    width: 60px;
+  }
+  .we-are__title {
+    margin-bottom: 30px;
+  }
+  .info__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px 0;
+  }
+  .info__item {
+    padding: 30px 26px 65px;
+  }
+}
+
+@media (max-width: 414px) {
+  .provide .popup__title {
+    font-size: 23px;
+  }
+  .info .title {
+    font-size: 34px;
   }
 }
 
@@ -1315,12 +1443,56 @@ textarea::placeholder {
   .banner__btn {
     padding: 15px 34px;
   }
+  .provide .popup__title {
+    font-size: 22px;
+  }
+  .provide .popup__form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .provide .popup__input {
+    max-width: 100%;
+  }
+  .we-are__info {
+    max-width: 280px;
+  }
+  .we-are__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 375px) {
+  .provide .popup__title {
+    font-size: 21px;
+  }
+  .we-are__info {
+    max-width: 270px;
+  }
+  .info__images {
+    width: 65px;
+    height: 65px;
+  }
+  .info__title {
+    margin-left: 20px;
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 360px) {
   .banner__text {
     max-width: 300px;
     margin: 0 auto 25px;
+  }
+  .provide .popup__title {
+    font-size: 20px;
+  }
+  .provide .popup__description {
+    max-width: 100%;
+    font-size: 15px;
+  }
+  .we-are__info {
+    max-width: 255px;
   }
 }
 
@@ -1346,6 +1518,25 @@ textarea::placeholder {
   }
   .our-products__show {
     padding: 15px 0;
+  }
+  .provide .popup {
+    padding: 15px;
+  }
+  .provide .popup__title {
+    text-align: center;
+  }
+  .provide .popup__description {
+    text-align: center;
+  }
+  .we-are__info {
+    max-width: 220px;
+  }
+  .info__images {
+    width: 65px;
+    height: 60px;
+  }
+  .info .title {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
